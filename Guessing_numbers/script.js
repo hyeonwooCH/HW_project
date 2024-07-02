@@ -40,7 +40,7 @@ document.getElementById("userGuess").addEventListener("keypress", function(event
         checkGuess(); // 숫자 확인 함수 호출
     }
 });
-
+   
 // 폭죽 애니메이션 함수
 function showFireworks() {
     const fireworksContainer = document.getElementById("fireworks-container");
