@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing The Numbers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container"> <!--게임의 전체적인 컨테이너-->
+        <h1>Guessing The Numbers</h1> <!--게임의 제목-->
+        <p id="message">1에서 100 사이의 숫자를 입력하세요.</p> <!--사용자에게 보이는 message-->
+        <div class="input-container">
+            <input type="text" id="userGuess" class="input-field" placeholder="여기에 숫자를 입력하세요"> <!--사용자가 숫자를 입력하는 필드-->
+            <button onclick="checkGuess()">제출</button> <!--숫자 제출 버튼(checkGuss() 실행)-->
+        </div>
+    </div>
+
+    <div id="fireworks-container"></div> <!--폭죽 애니메이션 컨테이너-->
+
+    <script src="script.js"></script>
+</body>
+</html>
